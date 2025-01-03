@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "render/index"
   resource :unsubscribe, only: [:show]
   resource :session
   
